@@ -1,0 +1,84 @@
+
+body{
+    background-color: #20262E;
+}
+
+
+
+/* Navbar Css Start*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Roboto:wght@100&display=swap');
+#nvbr{
+   font-family:"Roboto:wght";
+   font-size: 20px;
+}
+
+#hero{
+    color: #FBF1D3;
+    text-align: center;
+   }
+   
+/* Navbar Css End*/
+
+/* Table Css Start*/
+@media only screen and (max-width:800px){
+  #no-more-table tbody,#no-more-table tr,#no-more-table td{
+    display: block;
+  }
+  #no-more-table thead tr{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  #no-more-table td{
+    position: relative;
+    padding-left: 50%;
+  }
+  #no-more-table td::before{
+    content: attr(data-title);
+    position: absolute;
+    left: 6px;
+  }
+}    
+
+#logo{
+  width:30px;
+}
+
+#coins{
+  text-decoration: none;
+  font-size: 18px;
+ }
+ #coins_short_name{
+  color: gray;
+  font-size: 18px;
+ }  
+
+#price{
+  font-size: 18px;
+  color: red; 
+}
+#one-hour{
+  font-size: 18px;
+  color: green;
+}
+#tweenty-four-hour{
+  font-size: 18px;
+  color: red;
+}
+#seven-days{
+  font-size: 18px;
+  color: green;
+}
+#market-cap{
+  font-size: 18px;
+  color: gray;
+}
+#volume{
+  font-size: 18px;
+  color: gray;
+}
+#supply{
+  font-size: 18px;
+  color: gray;
+}
+/* Table Css Etart*/
